@@ -28,8 +28,8 @@ def load_config():
     except FileNotFoundError:
         # Fallback/Auto-create with user provided defaults so it always works
         default_data = {
-            "api_ticket": "",
-            "gemini_key": "AIzaSyCO1E0DKAhyNuR_0qVfcsevrMm4SnrpbyI"
+            "api_ticket": "21D64027-871C-4D03-A1CA-90D62AACD9A4",
+            "gemini_key": ""
         }
         with open(CONFIG_FILE, "w") as f:
             json.dump(default_data, f)
@@ -292,4 +292,5 @@ else:
 # Footer
 st.markdown("---")
 st.caption("Powered by Vibe Coding 🚀 & Antigravity")
+
 
