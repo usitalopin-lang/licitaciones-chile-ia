@@ -291,6 +291,7 @@ else:
 
 # Footer
 st.markdown("---")
-st.caption("Powered by Vibe Coding 🚀 & Antigravity")
+st.caption("Powered by Vibe Coding 🚀 & Cris")
+
 
 
